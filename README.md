@@ -1,2 +1,2 @@
-# MissionFAANG
-Data Structures &amp; Low Level Design
+# Mission FAANG
+Data Structures Practice
