@@ -89,7 +89,7 @@ public class GraphTraversal {
         Vertex<Integer> vertex50 = new Vertex<>(50);
         Vertex<Integer> vertex70 = new Vertex<>(70);
 
-        Graph<Integer> graph = new Graph(7);
+        Graph<Integer> graph = new Graph<>(7);
 
         graph.addEdge(vertex40, vertex10);
         graph.addEdge(vertex40, vertex20);
