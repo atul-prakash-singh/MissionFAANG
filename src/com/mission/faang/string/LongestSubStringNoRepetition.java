@@ -3,12 +3,12 @@ package com.mission.faang.string;
 import java.util.HashMap;
 import java.util.Map;
 
-public class longestSubStringNoRepeatetion {
+public class LongestSubStringNoRepetition {
     public static void main(String[] args) {
         String s = "sangyatri";
-        System.out.println("Length longest subString in given string "+
-                s+" is "+lengthOfLongestSubstring(s));
+        System.out.println("Length longest subString in given string " + s + " is " + lengthOfLongestSubstring(s));
     }
+
     public static int lengthOfLongestSubstring(String s) {
         int n = s.length(), ans = 0;
         Map<Character, Integer> map = new HashMap<>(); // current index of character
